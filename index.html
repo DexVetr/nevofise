@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>НЕ В ОФИСЕ — журнал про индустрию, бизнес и людей дела</title>
+  <meta name="description" content="НЕ В ОФИСЕ — медиа о производстве, бизнесе, прикладных профессиях и людях индустрии." />
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#hero" aria-label="На главную">
+      <img src="assets/logo.png" alt="НЕ В ОФИСЕ" />
+    </a>
+    <nav>
+      <a href="#about">О проекте</a>
+      <a href="#visited">Мы были в</a>
+      <a href="#team">Команда</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero section">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-card reveal">
+        <img class="hero-logo" src="assets/logo.png" alt="Логотип НЕ В ОФИСЕ" />
+        <p class="hero-kicker">Интервью с людьми из промышленности</p>
+        <h1>Производство, бизнес и реальные профессии — человеческим языком.</h1>
+        <a class="button" href="#about">Узнать о проекте</a>
+      </div>
+    </section>
+
+    <section id="about" class="section about reveal">
+      <p class="eyebrow">О проекте</p>
+      <h2>«НЕ В ОФИСЕ» показывает индустрию изнутри</h2>
+      <div class="about-grid">
+        <p>Мы ездим на производства, заводы, стройки, в цеха и мастерские, чтобы говорить с людьми, которые создают материальный мир: металл, дерево, технологии, инфраструктуру, оборудование и сервис.</p>
+        <p>Наша цель — сделать рынок прикладных профессий понятным и интересным для молодой аудитории. Без канцелярита и сухих отчетов: через истории, интервью, визуальный стиль и честный разговор о работе, бизнесе и будущем индустрии.</p>
+      </div>
+    </section>
+
+    <section id="visited" class="section reveal">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Карта опыта</p>
+          <h2>Мы были в</h2>
+        </div>
+        <p class="muted">Блок легко обновлять в файле <code>script.js</code>.</p>
+      </div>
+      <div class="carousel" aria-label="Выставки, проекты и партнеры">
+        <button class="carousel-btn" data-prev aria-label="Назад">←</button>
+        <div class="track" id="visitedTrack"></div>
+        <button class="carousel-btn" data-next aria-label="Вперед">→</button>
+      </div>
+    </section>
+
+    <section id="team" class="section reveal">
+      <p class="eyebrow">Люди проекта</p>
+      <h2>Наша команда</h2>
+      <div class="team-grid">
+        <article class="person"><div class="avatar">ДК</div><h3>Кириллов Денис</h3><p>Руководитель проекта</p></article>
+        <article class="person"><div class="avatar">МВ</div><h3>Ветрищак Михаил</h3><p>Ведущий</p></article>
+        <article class="person"><div class="avatar">ЕВ</div><h3>Ветрищак Екатерина</h3><p>Техническая группа</p></article>
+      </div>
+    </section>
+
+    <section id="contacts" class="section contacts reveal">
+      <p class="eyebrow">Связь</p>
+      <h2>Контакты и соцсети</h2>
+      <div class="contact-card">
+        <a href="https://vk.ru/nevofise" target="_blank" rel="noopener">ВКонтакте</a>
+        <a href="mailto:hello@nevofise.ru">hello@nevofise.ru</a>
+        <a href="https://nevofise.ru">nevofise.ru</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> НЕ В ОФИСЕ. Медиа о людях индустрии.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
